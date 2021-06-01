@@ -1,21 +1,52 @@
-{{> post-info post }}
+<div class="container">
+    <article class="single-post post-li bg-dark  text-light">
+        <div class="row">
+            <div class="col-1 points d-flex justify-content-center align-items-center">
+                <span class="oi oi-arrow-circle-top upv text-success"></span>
+                {{post.vote_count}}
+            </div>
+            <div class="col-11">
+                <div class="title">
+                    <span class="header">{{post.title}}</span>
+                    <p class="card-text ">{{post.content}}</p>
+                    
+                </div>
+
+                <div class="meta">
+
+                    by {{post.user.username}} on
+                    {{format_date post.created_at}}
+                    |
+                    {{post.comments.length}} comment(s)
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="postContent">
+                {{post.post_content}}
+            </div>
+        </div>
+
+    </article>
+
+    {{#if loggedIn}}
+
+    <form class="comment-form">
+        <div class="form-group">
+            <textarea class="form-control commentBox" name="comment-body" placeholder="Type a Comment Here" maxlength="255"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Comment</button>
+        <button id="upvote-btn" type="button" class="btn btn-success">Upvote</button>
+    </form>
+
+    {{/if}}
+
+    {{> comments post.comments}}
+</div>
+
 
 {{#if loggedIn}}
-<form class="comment-form">
-  <div>
-    <textarea name="comment-body"></textarea>
-  </div>
-
-  <div>
-    <button type="submit">add comment</button>
-    <button type="button" class="upvote-btn">upvote</button>
-  </div>
-</form>
-{{/if}}
-
-{{> comments post.comments}}
-
-{{#if loggedIn}}
-<script src="../public/js/comment.js"></script>
+<script src="./js/comment.js"></script>
 
 {{/if}}
