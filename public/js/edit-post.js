@@ -1,4 +1,4 @@
-async function editFormHandler(event) {
+const editFormHandler=(event)=> {
     event.preventDefault();
 
     const id = window.location.toString().split('/')[

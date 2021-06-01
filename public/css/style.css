@@ -124,17 +124,17 @@ main {
 }
 
 .edit-link {
-  background-color: #197d0f;
+  background-color:#6bb3d4;
   transition: background-color .1s;
 }
 
 .upvote-btn {
-  background-color: #197d0f;
+  background-color: #215c74;
   transition: background-color .1s;
 }
 
 .upvote-btn:hover {
-  background-color: #1f9c13;
+  background-color:#225ca3;
 }
 
 .comment-form {
