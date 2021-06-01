@@ -14,7 +14,6 @@
         <li><a href="#Acceptance Criteria">Acceptance Criteria</a></li>
           <li><a href="#Built With">Built With</a></li>
           <li><a href="#Deployed Links">Deployed Links</a></li>
-         <li><a href="#Screenshot">Screenshot</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </li>
@@ -72,28 +71,21 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Built with
    * Mysql
    * JS
-   * npm express
+   * npm
    * seqeulize
-   * insomnia
+   
    
 
 
 ## Deployed Links
-[Video link](https://youtu.be/fKzqYGPVx8Y)
+[heruko-link]()
 
 [link github](https://github.com/shaimajobran/E-Commerce-Back-End)
 
 
 
-## screenshot
-![screenshot](Assets/1.jpg)
-![screenshot](Assets/2.jpg)
-![screenshot](Assets/3.jpg)
-![screenshot](Assets/4.jpg)
-![screenshot](Assets/5.jpg)
-![screenshot](Assets/6.jpg)
-![screenshot](Assets/7.jpg)
-![screenshot](Assets/8.jpg)
+## NOTE
+I have a hard time seeding my comments and i cant git the signup page to work.
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](https://github.com/shaimajobran).
 
