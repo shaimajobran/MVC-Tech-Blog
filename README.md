@@ -14,7 +14,7 @@
         <li><a href="#Acceptance Criteria">Acceptance Criteria</a></li>
           <li><a href="#Built With">Built With</a></li>
           <li><a href="#Deployed Links">Deployed Links</a></li>
-           <li><a href="#Screenshot">Screenshot</a></li>
+           <li><a href="#Screenshot">Screenshots</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </li>
@@ -83,7 +83,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 [link github](https://github.com/shaimajobran/MVC-Tech-Blog)
 
-## screenshot
+## screenshots
 ![screenshot](public/images/1.jpg)
 ![screenshot](public/images/2.jpg)
 ![screenshot](public/images/3.jpg)
