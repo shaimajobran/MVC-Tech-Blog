@@ -14,6 +14,7 @@
         <li><a href="#Acceptance Criteria">Acceptance Criteria</a></li>
           <li><a href="#Built With">Built With</a></li>
           <li><a href="#Deployed Links">Deployed Links</a></li>
+           <li><a href="#Screenshot">Screenshot</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </li>
@@ -80,12 +81,20 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Deployed Links
 [heruko-link]()
 
-[link github](https://github.com/shaimajobran/E-Commerce-Back-End)
+[link github](https://github.com/shaimajobran/MVC-Tech-Blog)
+
+## screenshot
+![screenshot](public/images/1.jpg)
+![screenshot](public/images/2.jpg)
+![screenshot](public/images/3.jpg)
+![screenshot](public/images/4.jpg)
+![screenshot](public/images/5.jpg)
+![screenshot](public/images/6.jpg)
+![screenshot](public/images/7.jpg)
+![screenshot](public/images/8.jpg)
 
 
 
-## NOTE
-I have a hard time seeding my comments and i cant git the signup page to work.
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](https://github.com/shaimajobran).
 
