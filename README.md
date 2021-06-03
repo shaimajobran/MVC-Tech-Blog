@@ -93,7 +93,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ![screenshot](public/images/7.jpg)
 ![screenshot](public/images/8.jpg)
 ![screenshot](public/images/9.jpg)
-
+'''
 
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](https://github.com/shaimajobran).
